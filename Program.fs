@@ -34,8 +34,8 @@ main()
                     sumOfSquares <- sumOfSquares + i * i
                 (IsHappy sumOfSquares newList)
 
-    for i in 1..2 do
+    for i in 1..20 do
         let happysad = (IsHappy i [])
         Console.WriteLine("{0} is: {1}", i, (if fst(happysad) = true then "Happy" else "Sad"))
-        (print_sequence_reverse (snd happysad))
+        (printSequenceReverse (snd happysad))
         printf "\n" // go to new line

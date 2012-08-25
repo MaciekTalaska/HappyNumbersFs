@@ -26,5 +26,5 @@ module HappyFullRecursive =
     for i in 1.. 3 do
         let happy = (IsHappy i [])
         Console.WriteLine("{0} is: {1}", i, (fst happy)) 
-        (print_sequence_reverse (snd happy))
+        (printSequenceReverse (snd happy))
         printf "\n"
