@@ -3,22 +3,7 @@ namespace HappyNumbers
 open System
 open Utils
 module Happy =
-    let mutable l:list<int> = []
-(*
-let Squared number (allNumbers:list<int>) =
-    let squared = number * number
-    Happy.l <- squared :: Happy.l
-    ()
-    
-let main() =
-    for i in 1..100 do
-        let squared = Squared i Happy.l
-        ()
-    for i in Happy.l do
-        printf "%i  " i
-    
-main()
-*)
+
     let rec IsHappy number (allNumbers: list<int>) =
         let newList = number :: allNumbers
         match number with
