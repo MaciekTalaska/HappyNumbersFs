@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E36936
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HappyNumbers.XTests", "HappyNumbers.XTests\HappyNumbers.XTests.fsproj", "{011C6298-220B-4B38-A62D-59FB78287206}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,19 @@ Global
 		{0E3F449F-1E6B-4C7D-80D7-9B17E18ACCF9}.Release|x64.Build.0 = Release|x64
 		{0E3F449F-1E6B-4C7D-80D7-9B17E18ACCF9}.Release|x86.ActiveCfg = Release|x86
 		{0E3F449F-1E6B-4C7D-80D7-9B17E18ACCF9}.Release|x86.Build.0 = Release|x86
+		{011C6298-220B-4B38-A62D-59FB78287206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{011C6298-220B-4B38-A62D-59FB78287206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{011C6298-220B-4B38-A62D-59FB78287206}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{011C6298-220B-4B38-A62D-59FB78287206}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{011C6298-220B-4B38-A62D-59FB78287206}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{011C6298-220B-4B38-A62D-59FB78287206}.Debug|x86.ActiveCfg = Debug|x86
+		{011C6298-220B-4B38-A62D-59FB78287206}.Debug|x86.Build.0 = Debug|x86
+		{011C6298-220B-4B38-A62D-59FB78287206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{011C6298-220B-4B38-A62D-59FB78287206}.Release|Any CPU.Build.0 = Release|Any CPU
+		{011C6298-220B-4B38-A62D-59FB78287206}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{011C6298-220B-4B38-A62D-59FB78287206}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{011C6298-220B-4B38-A62D-59FB78287206}.Release|x64.ActiveCfg = Release|Any CPU
+		{011C6298-220B-4B38-A62D-59FB78287206}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
