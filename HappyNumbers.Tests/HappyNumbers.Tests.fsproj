@@ -83,7 +83,6 @@
     <Compile Include="HappyRecursiveTests.fs" />
     <Compile Include="HappySimpleTests.fs" />
     <None Include="app.config" />
-    <Compile Include="FsUnitSample.fs" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

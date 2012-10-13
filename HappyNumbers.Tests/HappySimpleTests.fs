@@ -7,11 +7,6 @@ open FsUnit
 
 module SimpleTests =
 
-(*
-[<TestFixture>]
-type HappyNumbersTest ()=
-*)
-
     [<Test>]
     let ``0 is unhappy`` () =
         fst(Happy.IsHappy 0 [] ) |> should be False

@@ -1,16 +1,11 @@
-﻿namespace HappyNumbers.Tests
+﻿namespace HappyNumbers.XTests
 
 open System
 open HappyNumbers
 open Xunit
 open FsUnit.Xunit
 
-module xUnitTests =
-
-(*
-[<TestFixture>]
-type HappyNumbersTest ()=
-*)
+module Simple =
 
     [<Fact>]
     let ``0 is unhappy`` () =
