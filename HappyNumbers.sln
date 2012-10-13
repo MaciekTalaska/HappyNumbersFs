@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HappyNumbers", "HappyNumbers.fsproj", "{EDBC09FA-F29D-46DD-B260-EA59ADC39D15}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HappyNumbers", "HappyNumbers\HappyNumbers.fsproj", "{EDBC09FA-F29D-46DD-B260-EA59ADC39D15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
